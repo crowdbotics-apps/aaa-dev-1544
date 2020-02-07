@@ -36,3 +36,8 @@ class HomePage(models.Model):
 class YES(models.Model):
     "Generated Model"
     yes = models.BigIntegerField()
+
+
+class US(models.Model):
+    "Generated Model"
+    yes = models.PositiveIntegerField()
