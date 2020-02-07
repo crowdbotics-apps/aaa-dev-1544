@@ -41,3 +41,4 @@ class YES(models.Model):
 class US(models.Model):
     "Generated Model"
     yes = models.PositiveIntegerField()
+    aaa = models.BigIntegerField(null=True, blank=True,)
